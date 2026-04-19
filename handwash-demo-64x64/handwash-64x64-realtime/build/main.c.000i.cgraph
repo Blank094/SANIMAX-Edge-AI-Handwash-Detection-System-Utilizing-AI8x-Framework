@@ -1,0 +1,3252 @@
+Trivially needed symbols: main/150 display_result/149 capture_process_camera/148 cnn_load_input/147 cnn_time/145 classes/142
+
+
+Initial Symbol table:
+
+softmax_q17p14_q15/183 (softmax_q17p14_q15) @073b7690
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_stop/182 (cnn_stop) @073b75e8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_unload/181 (cnn_unload) @073b7540
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_start/180 (cnn_start) @073b7498
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+LED_Toggle/179 (LED_Toggle) @073b73f0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+MXC_SYS_ClockEnable/178 (MXC_SYS_ClockEnable) @073b7348
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+camera_write_reg/177 (camera_write_reg) @073b72a0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+camera_set_vflip/176 (camera_set_vflip) @073b71f8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+camera_set_hmirror/175 (camera_set_hmirror) @073b7150
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+camera_setup/174 (camera_setup) @073b70a8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+camera_init/173 (camera_init) @073b7000
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+MXC_DMA_AcquireChannel/172 (MXC_DMA_AcquireChannel) @071f3f18
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+MXC_DMA_Init/171 (MXC_DMA_Init) @071f3e70
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_configure/170 (cnn_configure) @071f3dc8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_load_bias/169 (cnn_load_bias) @071f3d20
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_load_weights/168 (cnn_load_weights) @071f3c78
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_init/167 (cnn_init) @071f3bd0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_boost_enable/166 (cnn_boost_enable) @071f3b28
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_enable/165 (cnn_enable) @071f3a80
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+SystemCoreClockUpdate/164 (SystemCoreClockUpdate) @071f39d8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+MXC_SYS_Clock_Select/163 (MXC_SYS_Clock_Select) @071f3930
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+MXC_ICC_Enable/162 (MXC_ICC_Enable) @071f3888
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+puts/161 (__builtin_puts) @071f37e0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 main/150 
+  Calls: 
+Camera_Power/160 (Camera_Power) @071f3738
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+MXC_Delay/159 (MXC_Delay) @071f3690
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+LED_On/158 (LED_On) @071f35e8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: capture_process_camera/148 
+  Calls: 
+printf/157 (printf) @071f3540
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 display_result/149 capture_process_camera/148 
+  Calls: 
+get_camera_stream_statistic/156 (get_camera_stream_statistic) @071f3498
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: capture_process_camera/148 
+  Calls: 
+release_camera_stream_buffer/155 (release_camera_stream_buffer) @071f33f0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: capture_process_camera/148 
+  Calls: 
+get_camera_stream_buffer/154 (get_camera_stream_buffer) @071f3348
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: capture_process_camera/148 
+  Calls: 
+camera_is_image_rcv/153 (camera_is_image_rcv) @071f32a0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: capture_process_camera/148 
+  Calls: 
+camera_get_image/152 (camera_get_image) @071f31f8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: capture_process_camera/148 
+  Calls: 
+camera_start_capture_image/151 (camera_start_capture_image) @071f3150
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: capture_process_camera/148 
+  Calls: 
+main/150 (main) @071f30a8
+  Type: function definition analyzed
+  Visibility: semantic_interposition public
+  Aux: @01c61e00
+  References: cnn_time/145 (read) ml_data/143 (addr) ml_data/143 (addr) ml_softmax/144 (addr) 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: display_result/149 softmax_q17p14_q15/183 cnn_stop/182 cnn_unload/181 cnn_load_input/147 cnn_start/180 capture_process_camera/148 LED_Toggle/179 MXC_SYS_ClockEnable/178 camera_write_reg/177 camera_set_vflip/176 camera_set_hmirror/175 printf/157 camera_setup/174 camera_init/173 puts/161 MXC_DMA_AcquireChannel/172 MXC_DMA_Init/171 cnn_configure/170 cnn_load_bias/169 cnn_load_weights/168 cnn_init/167 cnn_boost_enable/166 cnn_enable/165 SystemCoreClockUpdate/164 MXC_SYS_Clock_Select/163 MXC_ICC_Enable/162 puts/161 Camera_Power/160 MXC_Delay/159 
+display_result/149 (display_result) @071e4a80
+  Type: function definition analyzed
+  Visibility: semantic_interposition public
+  Aux: @071f30a8
+  References: ml_softmax/144 (read) ml_softmax/144 (read) ml_softmax/144 (read) classes/142 (read) 
+  Referring: 
+  Function flags: body
+  Called by: main/150 
+  Calls: printf/157 
+capture_process_camera/148 (capture_process_camera) @071e4690
+  Type: function definition analyzed
+  Visibility: semantic_interposition public
+  Aux: @071e4a80
+  References: input_0/146 (write) 
+  Referring: 
+  Function flags: body
+  Called by: main/150 
+  Calls: LED_On/158 printf/157 get_camera_stream_statistic/156 release_camera_stream_buffer/155 get_camera_stream_buffer/154 camera_is_image_rcv/153 camera_get_image/152 camera_start_capture_image/151 
+cnn_load_input/147 (cnn_load_input) @071e43f0
+  Type: function definition analyzed
+  Visibility: semantic_interposition public
+  Aux: @071e4690
+  References: input_0/146 (addr) 
+  Referring: 
+  Function flags: body
+  Called by: main/150 
+  Calls: 
+input_0/146 (input_0) @071db5a0
+  Type: variable definition analyzed
+  Visibility: semantic_interposition
+  Aux: @071e4690
+  References: 
+  Referring: cnn_load_input/147 (addr) capture_process_camera/148 (write) 
+  Availability: not-ready
+  Varpool flags:
+cnn_time/145 (cnn_time) @071db558
+  Type: variable definition analyzed
+  Visibility: force_output semantic_interposition public
+  Aux: @071e43f0
+  References: 
+  Referring: main/150 (read) 
+  Availability: not-ready
+  Varpool flags:
+ml_softmax/144 (ml_softmax) @071db510
+  Type: variable definition analyzed
+  Visibility: semantic_interposition
+  Aux: @071f30a8
+  References: 
+  Referring: display_result/149 (read) display_result/149 (read) display_result/149 (read) main/150 (addr) 
+  Availability: not-ready
+  Varpool flags:
+ml_data/143 (ml_data) @071db4c8
+  Type: variable definition analyzed
+  Visibility: semantic_interposition
+  Aux: @01c61e00
+  References: 
+  Referring: main/150 (addr) main/150 (addr) 
+  Availability: not-ready
+  Varpool flags:
+classes/142 (classes) @071db480
+  Type: variable definition analyzed
+  Visibility: semantic_interposition public
+  Aux: @071db558
+  References: 
+  Referring: display_result/149 (read) 
+  Availability: not-ready
+  Varpool flags: initialized
+MXC_SYS_In_Crit_Section/141 (MXC_SYS_In_Crit_Section) @070de150
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+MXC_SYS_Crit_Exit/140 (MXC_SYS_Crit_Exit) @070de000
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+MXC_SYS_Crit_Enter/139 (MXC_SYS_Crit_Enter) @070dac78
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+_mxc_crit_get_state/138 (_mxc_crit_get_state) @070da000
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+_state/137 (_state) @070d5b88
+  Type: variable definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Availability: not-ready
+  Varpool flags: initialized
+ITM_CheckChar/136 (ITM_CheckChar) @0706f9d8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+ITM_ReceiveChar/135 (ITM_ReceiveChar) @0706f888
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+ITM_SendChar/134 (ITM_SendChar) @0706f738
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+SysTick_Config/133 (SysTick_Config) @0706f3f0
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+SCB_GetFPUType/132 (SCB_GetFPUType) @0706f2a0
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+ARM_MPU_Load/131 (ARM_MPU_Load) @0706f150
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+ARM_MPU_OrderedMemcpy/130 (ARM_MPU_OrderedMemcpy) @0706f000
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+ARM_MPU_SetRegionEx/129 (ARM_MPU_SetRegionEx) @070687e0
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+ARM_MPU_SetRegion/128 (ARM_MPU_SetRegion) @07068e70
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+ARM_MPU_ClrRegion/127 (ARM_MPU_ClrRegion) @07068d20
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+ARM_MPU_Disable/126 (ARM_MPU_Disable) @07068bd0
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+ARM_MPU_Enable/125 (ARM_MPU_Enable) @07068a80
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__NVIC_SystemReset/124 (__NVIC_SystemReset) @070672a0
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__NVIC_GetVector/123 (__NVIC_GetVector) @07067150
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__NVIC_SetVector/122 (__NVIC_SetVector) @07067000
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+NVIC_DecodePriority/121 (NVIC_DecodePriority) @0705de70
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+NVIC_EncodePriority/120 (NVIC_EncodePriority) @0705dd20
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__NVIC_GetPriority/119 (__NVIC_GetPriority) @0705dbd0
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__NVIC_SetPriority/118 (__NVIC_SetPriority) @0705da80
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__NVIC_GetActive/117 (__NVIC_GetActive) @0705d930
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__NVIC_ClearPendingIRQ/116 (__NVIC_ClearPendingIRQ) @0705d7e0
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__NVIC_SetPendingIRQ/115 (__NVIC_SetPendingIRQ) @0705d690
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__NVIC_GetPendingIRQ/114 (__NVIC_GetPendingIRQ) @0705d540
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__NVIC_DisableIRQ/113 (__NVIC_DisableIRQ) @0705d3f0
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__NVIC_GetEnableIRQ/112 (__NVIC_GetEnableIRQ) @0705d2a0
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__NVIC_EnableIRQ/111 (__NVIC_EnableIRQ) @0705d150
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__NVIC_GetPriorityGrouping/110 (__NVIC_GetPriorityGrouping) @0705d000
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__NVIC_SetPriorityGrouping/109 (__NVIC_SetPriorityGrouping) @07044e70
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__SMMLA/108 (__SMMLA) @06ffd0a8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__QSUB/107 (__QSUB) @06ff5f18
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__QADD/106 (__QADD) @06ff5dc8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__SEL/105 (__SEL) @06ff5c78
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__SMLSLDX/104 (__SMLSLDX) @06ff5b28
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__SMLSLD/103 (__SMLSLD) @06ff59d8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__SMLSDX/102 (__SMLSDX) @06ff5888
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__SMLSD/101 (__SMLSD) @06ff5738
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__SMUSDX/100 (__SMUSDX) @06ff55e8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__SMUSD/99 (__SMUSD) @06ff5498
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__SMLALDX/98 (__SMLALDX) @06ff5348
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__SMLALD/97 (__SMLALD) @06ff51f8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__SMLADX/96 (__SMLADX) @06ff50a8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__SMLAD/95 (__SMLAD) @06fedf18
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__SMUADX/94 (__SMUADX) @06feddc8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__SMUAD/93 (__SMUAD) @06fedc78
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__SXTAB16_RORn/92 (__SXTAB16_RORn) @06fedb28
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__SXTAB16/91 (__SXTAB16) @06fed9d8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__SXTB16_RORn/90 (__SXTB16_RORn) @06fed888
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__SXTB16/89 (__SXTB16) @06fed738
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__UXTAB16/88 (__UXTAB16) @06fed5e8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__UXTB16/87 (__UXTB16) @06fed498
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__USADA8/86 (__USADA8) @06fed1f8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__USAD8/85 (__USAD8) @06fed0a8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__UHSAX/84 (__UHSAX) @06fe5f18
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__UQSAX/83 (__UQSAX) @06fe5dc8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__USAX/82 (__USAX) @06fe5c78
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__SHSAX/81 (__SHSAX) @06fe5b28
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__QSAX/80 (__QSAX) @06fe59d8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__SSAX/79 (__SSAX) @06fe5888
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__UHASX/78 (__UHASX) @06fe5738
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__UQASX/77 (__UQASX) @06fe55e8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__UASX/76 (__UASX) @06fe5498
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__SHASX/75 (__SHASX) @06fe5348
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__QASX/74 (__QASX) @06fe51f8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__SASX/73 (__SASX) @06fe50a8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__UHSUB16/72 (__UHSUB16) @06fdff18
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__UQSUB16/71 (__UQSUB16) @06fdfdc8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__USUB16/70 (__USUB16) @06fdfc78
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__SHSUB16/69 (__SHSUB16) @06fdfb28
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__QSUB16/68 (__QSUB16) @06fdf9d8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__SSUB16/67 (__SSUB16) @06fdf888
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__UHADD16/66 (__UHADD16) @06fdf738
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__UQADD16/65 (__UQADD16) @06fdf5e8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__UADD16/64 (__UADD16) @06fdf498
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__SHADD16/63 (__SHADD16) @06fdf348
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__QADD16/62 (__QADD16) @06fdf1f8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__SADD16/61 (__SADD16) @06fdf0a8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__UHSUB8/60 (__UHSUB8) @06fdaf18
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__UQSUB8/59 (__UQSUB8) @06fdadc8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__USUB8/58 (__USUB8) @06fdac78
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__SHSUB8/57 (__SHSUB8) @06fdab28
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__QSUB8/56 (__QSUB8) @06fda9d8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__SSUB8/55 (__SSUB8) @06fda888
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__UHADD8/54 (__UHADD8) @06fda738
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__UQADD8/53 (__UQADD8) @06fda5e8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__UADD8/52 (__UADD8) @06fda498
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__SHADD8/51 (__SHADD8) @06fda348
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__QADD8/50 (__QADD8) @06fda1f8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__SADD8/49 (__SADD8) @06fda0a8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__set_FPSCR/48 (__set_FPSCR) @06fd3f18
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__get_FPSCR/47 (__get_FPSCR) @06fd3dc8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__set_FAULTMASK/46 (__set_FAULTMASK) @06fd3c78
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__get_FAULTMASK/45 (__get_FAULTMASK) @06fd3b28
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__set_BASEPRI_MAX/44 (__set_BASEPRI_MAX) @06fd39d8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__set_BASEPRI/43 (__set_BASEPRI) @06fd3888
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__get_BASEPRI/42 (__get_BASEPRI) @06fd3738
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__disable_fault_irq/41 (__disable_fault_irq) @06fd35e8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__enable_fault_irq/40 (__enable_fault_irq) @06fd3498
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__set_PRIMASK/39 (__set_PRIMASK) @06fd3348
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__get_PRIMASK/38 (__get_PRIMASK) @06fd31f8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__set_MSP/37 (__set_MSP) @06fd30a8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__get_MSP/36 (__get_MSP) @06fcdf18
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__set_PSP/35 (__set_PSP) @06fcddc8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__get_PSP/34 (__get_PSP) @06fcdc78
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__get_xPSR/33 (__get_xPSR) @06fcdb28
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__get_APSR/32 (__get_APSR) @06fcd9d8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__get_IPSR/31 (__get_IPSR) @06fcd888
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__set_CONTROL/30 (__set_CONTROL) @06fcd738
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__get_CONTROL/29 (__get_CONTROL) @06fcd5e8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__disable_irq/28 (__disable_irq) @06fcd498
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__enable_irq/27 (__enable_irq) @06fcd348
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__STRT/26 (__STRT) @06fcd1f8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__STRHT/25 (__STRHT) @06fcd0a8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__STRBT/24 (__STRBT) @06fc7f18
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__LDRT/23 (__LDRT) @06fc7dc8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__LDRHT/22 (__LDRHT) @06fc7c78
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__LDRBT/21 (__LDRBT) @06fc7b28
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__RRX/20 (__RRX) @06fc79d8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__CLREX/19 (__CLREX) @06fc7738
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__STREXW/18 (__STREXW) @06fc75e8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__STREXH/17 (__STREXH) @06fc7498
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__STREXB/16 (__STREXB) @06fc7348
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__LDREXW/15 (__LDREXW) @06fc71f8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__LDREXH/14 (__LDREXH) @06fc70a8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__LDREXB/13 (__LDREXB) @06f8c5e8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__CLZ/12 (__CLZ) @06f8c498
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__RBIT/11 (__RBIT) @06f8c348
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__ROR/10 (__ROR) @06f8c150
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__REVSH/9 (__REVSH) @06f8cf18
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__REV16/8 (__REV16) @06f8cdc8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__REV/7 (__REV) @06f8cc78
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__DMB/6 (__DMB) @06f8cb28
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__DSB/5 (__DSB) @06f8c9d8
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__ISB/4 (__ISB) @06f8c888
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__cmsis_start/3 (__cmsis_start) @06f8c738
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+_putchar_unlocked/2 (_putchar_unlocked) @06f71000
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+_getchar_unlocked/1 (_getchar_unlocked) @06f22e70
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+__sputc_r/0 (__sputc_r) @06f22c78
+  Type: function definition
+  Visibility: semantic_interposition
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+
+Removing unused symbols: MXC_SYS_In_Crit_Section/141 MXC_SYS_Crit_Exit/140 MXC_SYS_Crit_Enter/139 _mxc_crit_get_state/138 _state/137 ITM_CheckChar/136 ITM_ReceiveChar/135 ITM_SendChar/134 SysTick_Config/133 SCB_GetFPUType/132 ARM_MPU_Load/131 ARM_MPU_OrderedMemcpy/130 ARM_MPU_SetRegionEx/129 ARM_MPU_SetRegion/128 ARM_MPU_ClrRegion/127 ARM_MPU_Disable/126 ARM_MPU_Enable/125 __NVIC_SystemReset/124 __NVIC_GetVector/123 __NVIC_SetVector/122 NVIC_DecodePriority/121 NVIC_EncodePriority/120 __NVIC_GetPriority/119 __NVIC_SetPriority/118 __NVIC_GetActive/117 __NVIC_ClearPendingIRQ/116 __NVIC_SetPendingIRQ/115 __NVIC_GetPendingIRQ/114 __NVIC_DisableIRQ/113 __NVIC_GetEnableIRQ/112 __NVIC_EnableIRQ/111 __NVIC_GetPriorityGrouping/110 __NVIC_SetPriorityGrouping/109 __SMMLA/108 __QSUB/107 __QADD/106 __SEL/105 __SMLSLDX/104 __SMLSLD/103 __SMLSDX/102 __SMLSD/101 __SMUSDX/100 __SMUSD/99 __SMLALDX/98 __SMLALD/97 __SMLADX/96 __SMLAD/95 __SMUADX/94 __SMUAD/93 __SXTAB16_RORn/92 __SXTAB16/91 __SXTB16_RORn/90 __SXTB16/89 __UXTAB16/88 __UXTB16/87 __USADA8/86 __USAD8/85 __UHSAX/84 __UQSAX/83 __USAX/82 __SHSAX/81 __QSAX/80 __SSAX/79 __UHASX/78 __UQASX/77 __UASX/76 __SHASX/75 __QASX/74 __SASX/73 __UHSUB16/72 __UQSUB16/71 __USUB16/70 __SHSUB16/69 __QSUB16/68 __SSUB16/67 __UHADD16/66 __UQADD16/65 __UADD16/64 __SHADD16/63 __QADD16/62 __SADD16/61 __UHSUB8/60 __UQSUB8/59 __USUB8/58 __SHSUB8/57 __QSUB8/56 __SSUB8/55 __UHADD8/54 __UQADD8/53 __UADD8/52 __SHADD8/51 __QADD8/50 __SADD8/49 __set_FPSCR/48 __get_FPSCR/47 __set_FAULTMASK/46 __get_FAULTMASK/45 __set_BASEPRI_MAX/44 __set_BASEPRI/43 __get_BASEPRI/42 __disable_fault_irq/41 __enable_fault_irq/40 __set_PRIMASK/39 __get_PRIMASK/38 __set_MSP/37 __get_MSP/36 __set_PSP/35 __get_PSP/34 __get_xPSR/33 __get_APSR/32 __get_IPSR/31 __set_CONTROL/30 __get_CONTROL/29 __disable_irq/28 __enable_irq/27 __STRT/26 __STRHT/25 __STRBT/24 __LDRT/23 __LDRHT/22 __LDRBT/21 __RRX/20 __CLREX/19 __STREXW/18 __STREXH/17 __STREXB/16 __LDREXW/15 __LDREXH/14 __LDREXB/13 __CLZ/12 __RBIT/11 __ROR/10 __REVSH/9 __REV16/8 __REV/7 __DMB/6 __DSB/5 __ISB/4 __cmsis_start/3 _putchar_unlocked/2 _getchar_unlocked/1 __sputc_r/0
+
+Reclaimed Symbol table:
+
+softmax_q17p14_q15/183 (softmax_q17p14_q15) @073b7690
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_stop/182 (cnn_stop) @073b75e8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_unload/181 (cnn_unload) @073b7540
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_start/180 (cnn_start) @073b7498
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+LED_Toggle/179 (LED_Toggle) @073b73f0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+MXC_SYS_ClockEnable/178 (MXC_SYS_ClockEnable) @073b7348
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+camera_write_reg/177 (camera_write_reg) @073b72a0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+camera_set_vflip/176 (camera_set_vflip) @073b71f8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+camera_set_hmirror/175 (camera_set_hmirror) @073b7150
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+camera_setup/174 (camera_setup) @073b70a8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+camera_init/173 (camera_init) @073b7000
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+MXC_DMA_AcquireChannel/172 (MXC_DMA_AcquireChannel) @071f3f18
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+MXC_DMA_Init/171 (MXC_DMA_Init) @071f3e70
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_configure/170 (cnn_configure) @071f3dc8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_load_bias/169 (cnn_load_bias) @071f3d20
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_load_weights/168 (cnn_load_weights) @071f3c78
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_init/167 (cnn_init) @071f3bd0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_boost_enable/166 (cnn_boost_enable) @071f3b28
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_enable/165 (cnn_enable) @071f3a80
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+SystemCoreClockUpdate/164 (SystemCoreClockUpdate) @071f39d8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+MXC_SYS_Clock_Select/163 (MXC_SYS_Clock_Select) @071f3930
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+MXC_ICC_Enable/162 (MXC_ICC_Enable) @071f3888
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+puts/161 (__builtin_puts) @071f37e0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 main/150 
+  Calls: 
+Camera_Power/160 (Camera_Power) @071f3738
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+MXC_Delay/159 (MXC_Delay) @071f3690
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+LED_On/158 (LED_On) @071f35e8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: capture_process_camera/148 
+  Calls: 
+printf/157 (printf) @071f3540
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 display_result/149 capture_process_camera/148 
+  Calls: 
+get_camera_stream_statistic/156 (get_camera_stream_statistic) @071f3498
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: capture_process_camera/148 
+  Calls: 
+release_camera_stream_buffer/155 (release_camera_stream_buffer) @071f33f0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: capture_process_camera/148 
+  Calls: 
+get_camera_stream_buffer/154 (get_camera_stream_buffer) @071f3348
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: capture_process_camera/148 
+  Calls: 
+camera_is_image_rcv/153 (camera_is_image_rcv) @071f32a0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: capture_process_camera/148 
+  Calls: 
+camera_get_image/152 (camera_get_image) @071f31f8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: capture_process_camera/148 
+  Calls: 
+camera_start_capture_image/151 (camera_start_capture_image) @071f3150
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: capture_process_camera/148 
+  Calls: 
+main/150 (main) @071f30a8
+  Type: function definition analyzed
+  Visibility: semantic_interposition public
+  References: cnn_time/145 (read) ml_data/143 (addr) ml_data/143 (addr) ml_softmax/144 (addr) 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: display_result/149 softmax_q17p14_q15/183 cnn_stop/182 cnn_unload/181 cnn_load_input/147 cnn_start/180 capture_process_camera/148 LED_Toggle/179 MXC_SYS_ClockEnable/178 camera_write_reg/177 camera_set_vflip/176 camera_set_hmirror/175 printf/157 camera_setup/174 camera_init/173 puts/161 MXC_DMA_AcquireChannel/172 MXC_DMA_Init/171 cnn_configure/170 cnn_load_bias/169 cnn_load_weights/168 cnn_init/167 cnn_boost_enable/166 cnn_enable/165 SystemCoreClockUpdate/164 MXC_SYS_Clock_Select/163 MXC_ICC_Enable/162 puts/161 Camera_Power/160 MXC_Delay/159 
+display_result/149 (display_result) @071e4a80
+  Type: function definition analyzed
+  Visibility: semantic_interposition public
+  References: ml_softmax/144 (read) ml_softmax/144 (read) ml_softmax/144 (read) classes/142 (read) 
+  Referring: 
+  Function flags: body
+  Called by: main/150 
+  Calls: printf/157 
+capture_process_camera/148 (capture_process_camera) @071e4690
+  Type: function definition analyzed
+  Visibility: semantic_interposition public
+  References: input_0/146 (write) 
+  Referring: 
+  Function flags: body
+  Called by: main/150 
+  Calls: LED_On/158 printf/157 get_camera_stream_statistic/156 release_camera_stream_buffer/155 get_camera_stream_buffer/154 camera_is_image_rcv/153 camera_get_image/152 camera_start_capture_image/151 
+cnn_load_input/147 (cnn_load_input) @071e43f0
+  Type: function definition analyzed
+  Visibility: semantic_interposition public
+  References: input_0/146 (addr) 
+  Referring: 
+  Function flags: body
+  Called by: main/150 
+  Calls: 
+input_0/146 (input_0) @071db5a0
+  Type: variable definition analyzed
+  Visibility: semantic_interposition
+  References: 
+  Referring: cnn_load_input/147 (addr) capture_process_camera/148 (write) 
+  Availability: not-ready
+  Varpool flags:
+cnn_time/145 (cnn_time) @071db558
+  Type: variable definition analyzed
+  Visibility: force_output semantic_interposition public
+  References: 
+  Referring: main/150 (read) 
+  Availability: not-ready
+  Varpool flags:
+ml_softmax/144 (ml_softmax) @071db510
+  Type: variable definition analyzed
+  Visibility: semantic_interposition
+  References: 
+  Referring: display_result/149 (read) display_result/149 (read) display_result/149 (read) main/150 (addr) 
+  Availability: not-ready
+  Varpool flags:
+ml_data/143 (ml_data) @071db4c8
+  Type: variable definition analyzed
+  Visibility: semantic_interposition
+  References: 
+  Referring: main/150 (addr) main/150 (addr) 
+  Availability: not-ready
+  Varpool flags:
+classes/142 (classes) @071db480
+  Type: variable definition analyzed
+  Visibility: semantic_interposition public
+  References: 
+  Referring: display_result/149 (read) 
+  Availability: not-ready
+  Varpool flags: initialized
+
+
+Initial Symbol table:
+
+softmax_q17p14_q15/183 (softmax_q17p14_q15) @073b7690
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_stop/182 (cnn_stop) @073b75e8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_unload/181 (cnn_unload) @073b7540
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_start/180 (cnn_start) @073b7498
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+LED_Toggle/179 (LED_Toggle) @073b73f0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+MXC_SYS_ClockEnable/178 (MXC_SYS_ClockEnable) @073b7348
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+camera_write_reg/177 (camera_write_reg) @073b72a0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+camera_set_vflip/176 (camera_set_vflip) @073b71f8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+camera_set_hmirror/175 (camera_set_hmirror) @073b7150
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+camera_setup/174 (camera_setup) @073b70a8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+camera_init/173 (camera_init) @073b7000
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+MXC_DMA_AcquireChannel/172 (MXC_DMA_AcquireChannel) @071f3f18
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+MXC_DMA_Init/171 (MXC_DMA_Init) @071f3e70
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_configure/170 (cnn_configure) @071f3dc8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_load_bias/169 (cnn_load_bias) @071f3d20
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_load_weights/168 (cnn_load_weights) @071f3c78
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_init/167 (cnn_init) @071f3bd0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_boost_enable/166 (cnn_boost_enable) @071f3b28
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_enable/165 (cnn_enable) @071f3a80
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+SystemCoreClockUpdate/164 (SystemCoreClockUpdate) @071f39d8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+MXC_SYS_Clock_Select/163 (MXC_SYS_Clock_Select) @071f3930
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+MXC_ICC_Enable/162 (MXC_ICC_Enable) @071f3888
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+puts/161 (__builtin_puts) @071f37e0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 main/150 
+  Calls: 
+Camera_Power/160 (Camera_Power) @071f3738
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+MXC_Delay/159 (MXC_Delay) @071f3690
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+LED_On/158 (LED_On) @071f35e8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: capture_process_camera/148 
+  Calls: 
+printf/157 (printf) @071f3540
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 display_result/149 capture_process_camera/148 
+  Calls: 
+get_camera_stream_statistic/156 (get_camera_stream_statistic) @071f3498
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: capture_process_camera/148 
+  Calls: 
+release_camera_stream_buffer/155 (release_camera_stream_buffer) @071f33f0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: capture_process_camera/148 
+  Calls: 
+get_camera_stream_buffer/154 (get_camera_stream_buffer) @071f3348
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: capture_process_camera/148 
+  Calls: 
+camera_is_image_rcv/153 (camera_is_image_rcv) @071f32a0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: capture_process_camera/148 
+  Calls: 
+camera_get_image/152 (camera_get_image) @071f31f8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: capture_process_camera/148 
+  Calls: 
+camera_start_capture_image/151 (camera_start_capture_image) @071f3150
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: capture_process_camera/148 
+  Calls: 
+main/150 (main) @071f30a8
+  Type: function definition analyzed
+  Visibility: semantic_interposition public
+  References: cnn_time/145 (read) ml_data/143 (addr) ml_data/143 (addr) ml_softmax/144 (addr) 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: display_result/149 softmax_q17p14_q15/183 cnn_stop/182 cnn_unload/181 cnn_load_input/147 cnn_start/180 capture_process_camera/148 LED_Toggle/179 MXC_SYS_ClockEnable/178 camera_write_reg/177 camera_set_vflip/176 camera_set_hmirror/175 printf/157 camera_setup/174 camera_init/173 puts/161 MXC_DMA_AcquireChannel/172 MXC_DMA_Init/171 cnn_configure/170 cnn_load_bias/169 cnn_load_weights/168 cnn_init/167 cnn_boost_enable/166 cnn_enable/165 SystemCoreClockUpdate/164 MXC_SYS_Clock_Select/163 MXC_ICC_Enable/162 puts/161 Camera_Power/160 MXC_Delay/159 
+display_result/149 (display_result) @071e4a80
+  Type: function definition analyzed
+  Visibility: semantic_interposition public
+  References: ml_softmax/144 (read) ml_softmax/144 (read) ml_softmax/144 (read) classes/142 (read) 
+  Referring: 
+  Function flags: body
+  Called by: main/150 
+  Calls: printf/157 
+capture_process_camera/148 (capture_process_camera) @071e4690
+  Type: function definition analyzed
+  Visibility: semantic_interposition public
+  References: input_0/146 (write) 
+  Referring: 
+  Function flags: body
+  Called by: main/150 
+  Calls: LED_On/158 printf/157 get_camera_stream_statistic/156 release_camera_stream_buffer/155 get_camera_stream_buffer/154 camera_is_image_rcv/153 camera_get_image/152 camera_start_capture_image/151 
+cnn_load_input/147 (cnn_load_input) @071e43f0
+  Type: function definition analyzed
+  Visibility: semantic_interposition public
+  References: input_0/146 (addr) 
+  Referring: 
+  Function flags: body
+  Called by: main/150 
+  Calls: 
+input_0/146 (input_0) @071db5a0
+  Type: variable definition analyzed
+  Visibility: semantic_interposition
+  References: 
+  Referring: cnn_load_input/147 (addr) capture_process_camera/148 (write) 
+  Availability: not-ready
+  Varpool flags:
+cnn_time/145 (cnn_time) @071db558
+  Type: variable definition analyzed
+  Visibility: force_output semantic_interposition public
+  References: 
+  Referring: main/150 (read) 
+  Availability: not-ready
+  Varpool flags:
+ml_softmax/144 (ml_softmax) @071db510
+  Type: variable definition analyzed
+  Visibility: semantic_interposition
+  References: 
+  Referring: display_result/149 (read) display_result/149 (read) display_result/149 (read) main/150 (addr) 
+  Availability: not-ready
+  Varpool flags:
+ml_data/143 (ml_data) @071db4c8
+  Type: variable definition analyzed
+  Visibility: semantic_interposition
+  References: 
+  Referring: main/150 (addr) main/150 (addr) 
+  Availability: not-ready
+  Varpool flags:
+classes/142 (classes) @071db480
+  Type: variable definition analyzed
+  Visibility: semantic_interposition public
+  References: 
+  Referring: display_result/149 (read) 
+  Availability: not-ready
+  Varpool flags: initialized
+
+Removing unused symbols:
+
+Reclaimed Symbol table:
+
+softmax_q17p14_q15/183 (softmax_q17p14_q15) @073b7690
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_stop/182 (cnn_stop) @073b75e8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_unload/181 (cnn_unload) @073b7540
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_start/180 (cnn_start) @073b7498
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+LED_Toggle/179 (LED_Toggle) @073b73f0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+MXC_SYS_ClockEnable/178 (MXC_SYS_ClockEnable) @073b7348
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+camera_write_reg/177 (camera_write_reg) @073b72a0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+camera_set_vflip/176 (camera_set_vflip) @073b71f8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+camera_set_hmirror/175 (camera_set_hmirror) @073b7150
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+camera_setup/174 (camera_setup) @073b70a8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+camera_init/173 (camera_init) @073b7000
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+MXC_DMA_AcquireChannel/172 (MXC_DMA_AcquireChannel) @071f3f18
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+MXC_DMA_Init/171 (MXC_DMA_Init) @071f3e70
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_configure/170 (cnn_configure) @071f3dc8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_load_bias/169 (cnn_load_bias) @071f3d20
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_load_weights/168 (cnn_load_weights) @071f3c78
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_init/167 (cnn_init) @071f3bd0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_boost_enable/166 (cnn_boost_enable) @071f3b28
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+cnn_enable/165 (cnn_enable) @071f3a80
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+SystemCoreClockUpdate/164 (SystemCoreClockUpdate) @071f39d8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+MXC_SYS_Clock_Select/163 (MXC_SYS_Clock_Select) @071f3930
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+MXC_ICC_Enable/162 (MXC_ICC_Enable) @071f3888
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+puts/161 (__builtin_puts) @071f37e0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 main/150 
+  Calls: 
+Camera_Power/160 (Camera_Power) @071f3738
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+MXC_Delay/159 (MXC_Delay) @071f3690
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 
+  Calls: 
+LED_On/158 (LED_On) @071f35e8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: capture_process_camera/148 
+  Calls: 
+printf/157 (printf) @071f3540
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/150 display_result/149 capture_process_camera/148 
+  Calls: 
+get_camera_stream_statistic/156 (get_camera_stream_statistic) @071f3498
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: capture_process_camera/148 
+  Calls: 
+release_camera_stream_buffer/155 (release_camera_stream_buffer) @071f33f0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: capture_process_camera/148 
+  Calls: 
+get_camera_stream_buffer/154 (get_camera_stream_buffer) @071f3348
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: capture_process_camera/148 
+  Calls: 
+camera_is_image_rcv/153 (camera_is_image_rcv) @071f32a0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: capture_process_camera/148 
+  Calls: 
+camera_get_image/152 (camera_get_image) @071f31f8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: capture_process_camera/148 
+  Calls: 
+camera_start_capture_image/151 (camera_start_capture_image) @071f3150
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: capture_process_camera/148 
+  Calls: 
+main/150 (main) @071f30a8
+  Type: function definition analyzed
+  Visibility: semantic_interposition public
+  References: cnn_time/145 (read) ml_data/143 (addr) ml_data/143 (addr) ml_softmax/144 (addr) 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: display_result/149 softmax_q17p14_q15/183 cnn_stop/182 cnn_unload/181 cnn_load_input/147 cnn_start/180 capture_process_camera/148 LED_Toggle/179 MXC_SYS_ClockEnable/178 camera_write_reg/177 camera_set_vflip/176 camera_set_hmirror/175 printf/157 camera_setup/174 camera_init/173 puts/161 MXC_DMA_AcquireChannel/172 MXC_DMA_Init/171 cnn_configure/170 cnn_load_bias/169 cnn_load_weights/168 cnn_init/167 cnn_boost_enable/166 cnn_enable/165 SystemCoreClockUpdate/164 MXC_SYS_Clock_Select/163 MXC_ICC_Enable/162 puts/161 Camera_Power/160 MXC_Delay/159 
+display_result/149 (display_result) @071e4a80
+  Type: function definition analyzed
+  Visibility: semantic_interposition public
+  References: ml_softmax/144 (read) ml_softmax/144 (read) ml_softmax/144 (read) classes/142 (read) 
+  Referring: 
+  Function flags: body
+  Called by: main/150 
+  Calls: printf/157 
+capture_process_camera/148 (capture_process_camera) @071e4690
+  Type: function definition analyzed
+  Visibility: semantic_interposition public
+  References: input_0/146 (write) 
+  Referring: 
+  Function flags: body
+  Called by: main/150 
+  Calls: LED_On/158 printf/157 get_camera_stream_statistic/156 release_camera_stream_buffer/155 get_camera_stream_buffer/154 camera_is_image_rcv/153 camera_get_image/152 camera_start_capture_image/151 
+cnn_load_input/147 (cnn_load_input) @071e43f0
+  Type: function definition analyzed
+  Visibility: semantic_interposition public
+  References: input_0/146 (addr) 
+  Referring: 
+  Function flags: body
+  Called by: main/150 
+  Calls: 
+input_0/146 (input_0) @071db5a0
+  Type: variable definition analyzed
+  Visibility: semantic_interposition
+  References: 
+  Referring: cnn_load_input/147 (addr) capture_process_camera/148 (write) 
+  Availability: not-ready
+  Varpool flags:
+cnn_time/145 (cnn_time) @071db558
+  Type: variable definition analyzed
+  Visibility: force_output semantic_interposition public
+  References: 
+  Referring: main/150 (read) 
+  Availability: not-ready
+  Varpool flags:
+ml_softmax/144 (ml_softmax) @071db510
+  Type: variable definition analyzed
+  Visibility: semantic_interposition
+  References: 
+  Referring: display_result/149 (read) display_result/149 (read) display_result/149 (read) main/150 (addr) 
+  Availability: not-ready
+  Varpool flags:
+ml_data/143 (ml_data) @071db4c8
+  Type: variable definition analyzed
+  Visibility: semantic_interposition
+  References: 
+  Referring: main/150 (addr) main/150 (addr) 
+  Availability: not-ready
+  Varpool flags:
+classes/142 (classes) @071db480
+  Type: variable definition analyzed
+  Visibility: semantic_interposition public
+  References: 
+  Referring: display_result/149 (read) 
+  Availability: not-ready
+  Varpool flags: initialized
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Optimized Symbol table:
+
+cnn_load_input/184 (cnn_load_input) @06fdf348
+  Type: function definition analyzed
+  Visibility: semantic_interposition public
+  next sharing asm name: 147
+  References: input_0/146 (addr) 
+  Referring: 
+  Function cnn_load_input/184 is inline copy in main/150
+  Clone of cnn_load_input/147
+  Availability: local
+  Function flags: count:354334801 (estimated locally) body local nonfreeing_fn
+  Called by: main/150 (inlined) (354334801 (estimated locally),66.66 per call) 
+  Calls: 
+softmax_q17p14_q15/183 (softmax_q17p14_q15) @073b7690
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: main/150 (354334801 (estimated locally),66.66 per call) 
+  Calls: 
+cnn_stop/182 (cnn_stop) @073b75e8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: main/150 (354334801 (estimated locally),66.66 per call) 
+  Calls: 
+cnn_unload/181 (cnn_unload) @073b7540
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: main/150 (354334801 (estimated locally),66.66 per call) 
+  Calls: 
+cnn_start/180 (cnn_start) @073b7498
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: main/150 (354334801 (estimated locally),66.66 per call) 
+  Calls: 
+LED_Toggle/179 (LED_Toggle) @073b73f0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: main/150 (354334801 (estimated locally),66.66 per call) 
+  Calls: 
+MXC_SYS_ClockEnable/178 (MXC_SYS_ClockEnable) @073b7348
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: main/150 (3508266 (estimated locally),0.66 per call) 
+  Calls: 
+camera_write_reg/177 (camera_write_reg) @073b72a0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: main/150 (3508266 (estimated locally),0.66 per call) 
+  Calls: 
+camera_set_vflip/176 (camera_set_vflip) @073b71f8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: main/150 (3508266 (estimated locally),0.66 per call) 
+  Calls: 
+camera_set_hmirror/175 (camera_set_hmirror) @073b7150
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: main/150 (3508266 (estimated locally),0.66 per call) 
+  Calls: 
+camera_setup/174 (camera_setup) @073b70a8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: main/150 (5315554 (estimated locally),1.00 per call) 
+  Calls: 
+camera_init/173 (camera_init) @073b7000
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: main/150 (5315554 (estimated locally),1.00 per call) 
+  Calls: 
+MXC_DMA_AcquireChannel/172 (MXC_DMA_AcquireChannel) @071f3f18
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: main/150 (5315554 (estimated locally),1.00 per call) 
+  Calls: 
+MXC_DMA_Init/171 (MXC_DMA_Init) @071f3e70
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: main/150 (5315554 (estimated locally),1.00 per call) 
+  Calls: 
+cnn_configure/170 (cnn_configure) @071f3dc8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: main/150 (5315554 (estimated locally),1.00 per call) 
+  Calls: 
+cnn_load_bias/169 (cnn_load_bias) @071f3d20
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: main/150 (5315554 (estimated locally),1.00 per call) 
+  Calls: 
+cnn_load_weights/168 (cnn_load_weights) @071f3c78
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: main/150 (5315554 (estimated locally),1.00 per call) 
+  Calls: 
+cnn_init/167 (cnn_init) @071f3bd0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: main/150 (5315554 (estimated locally),1.00 per call) 
+  Calls: 
+cnn_boost_enable/166 (cnn_boost_enable) @071f3b28
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: main/150 (5315554 (estimated locally),1.00 per call) 
+  Calls: 
+cnn_enable/165 (cnn_enable) @071f3a80
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: main/150 (5315554 (estimated locally),1.00 per call) 
+  Calls: 
+SystemCoreClockUpdate/164 (SystemCoreClockUpdate) @071f39d8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: main/150 (5315554 (estimated locally),1.00 per call) 
+  Calls: 
+MXC_SYS_Clock_Select/163 (MXC_SYS_Clock_Select) @071f3930
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: main/150 (5315554 (estimated locally),1.00 per call) 
+  Calls: 
+MXC_ICC_Enable/162 (MXC_ICC_Enable) @071f3888
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: main/150 (5315554 (estimated locally),1.00 per call) 
+  Calls: 
+puts/161 (__builtin_puts) @071f37e0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: main/150 (5315554 (estimated locally),1.00 per call) main/150 (5315554 (estimated locally),1.00 per call) 
+  Calls: 
+Camera_Power/160 (Camera_Power) @071f3738
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: main/150 (5315554 (estimated locally),1.00 per call) 
+  Calls: 
+MXC_Delay/159 (MXC_Delay) @071f3690
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: main/150 (5315554 (estimated locally),1.00 per call) 
+  Calls: 
+LED_On/158 (LED_On) @071f35e8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: capture_process_camera/148 (4684883 (estimated locally),0.33 per call) 
+  Calls: 
+printf/157 (printf) @071f3540
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: main/150 (1807288 (estimated locally),0.34 per call) display_result/149 (178992760 (estimated locally),1.00 per call) capture_process_camera/148 (4684883 (estimated locally),0.33 per call) 
+  Calls: 
+get_camera_stream_statistic/156 (get_camera_stream_statistic) @071f3498
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: capture_process_camera/148 (14196616 (estimated locally),1.00 per call) 
+  Calls: 
+release_camera_stream_buffer/155 (release_camera_stream_buffer) @071f33f0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: capture_process_camera/148 (114863531 (estimated locally),8.09 per call) 
+  Calls: 
+get_camera_stream_buffer/154 (get_camera_stream_buffer) @071f3348
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: capture_process_camera/148 (1073741824 (estimated locally),75.63 per call) 
+  Calls: 
+camera_is_image_rcv/153 (camera_is_image_rcv) @071f32a0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: capture_process_camera/148 (1014686025 (estimated locally),71.47 per call) 
+  Calls: 
+camera_get_image/152 (camera_get_image) @071f31f8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: capture_process_camera/148 (14196615 (estimated locally),1.00 per call) 
+  Calls: 
+camera_start_capture_image/151 (camera_start_capture_image) @071f3150
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: capture_process_camera/148 (14196615 (estimated locally),1.00 per call) 
+  Calls: 
+main/150 (main) @071f30a8
+  Type: function definition analyzed
+  Visibility: externally_visible semantic_interposition public
+  References: cnn_time/145 (read) ml_data/143 (addr) ml_data/143 (addr) ml_softmax/144 (addr) 
+  Referring: 
+  Availability: available
+  Function flags: count:5315554 (estimated locally) body only_called_at_startup executed_once
+  Called by: 
+  Calls: display_result/149 (354334801 (estimated locally),66.66 per call) softmax_q17p14_q15/183 (354334801 (estimated locally),66.66 per call) cnn_stop/182 (354334801 (estimated locally),66.66 per call) cnn_unload/181 (354334801 (estimated locally),66.66 per call) cnn_load_input/184 (inlined) (354334801 (estimated locally),66.66 per call) cnn_start/180 (354334801 (estimated locally),66.66 per call) capture_process_camera/148 (354334801 (estimated locally),66.66 per call) LED_Toggle/179 (354334801 (estimated locally),66.66 per call) MXC_SYS_ClockEnable/178 (3508266 (estimated locally),0.66 per call) camera_write_reg/177 (3508266 (estimated locally),0.66 per call) camera_set_vflip/176 (3508266 (estimated locally),0.66 per call) camera_set_hmirror/175 (3508266 (estimated locally),0.66 per call) printf/157 (1807288 (estimated locally),0.34 per call) camera_setup/174 (5315554 (estimated locally),1.00 per call) camera_init/173 (5315554 (estimated locally),1.00 per call) puts/161 (5315554 (estimated locally),1.00 per call) MXC_DMA_AcquireChannel/172 (5315554 (estimated locally),1.00 per call) MXC_DMA_Init/171 (5315554 (estimated locally),1.00 per call) cnn_configure/170 (5315554 (estimated locally),1.00 per call) cnn_load_bias/169 (5315554 (estimated locally),1.00 per call) cnn_load_weights/168 (5315554 (estimated locally),1.00 per call) cnn_init/167 (5315554 (estimated locally),1.00 per call) cnn_boost_enable/166 (5315554 (estimated locally),1.00 per call) cnn_enable/165 (5315554 (estimated locally),1.00 per call) SystemCoreClockUpdate/164 (5315554 (estimated locally),1.00 per call) MXC_SYS_Clock_Select/163 (5315554 (estimated locally),1.00 per call) MXC_ICC_Enable/162 (5315554 (estimated locally),1.00 per call) puts/161 (5315554 (estimated locally),1.00 per call) Camera_Power/160 (5315554 (estimated locally),1.00 per call) MXC_Delay/159 (5315554 (estimated locally),1.00 per call) 
+display_result/149 (display_result) @071e4a80
+  Type: function definition analyzed
+  Visibility: externally_visible semantic_interposition public
+  References: ml_softmax/144 (read) ml_softmax/144 (read) classes/142 (read) 
+  Referring: 
+  Availability: available
+  Function flags: count:178992760 (estimated locally) body
+  Called by: main/150 (354334801 (estimated locally),66.66 per call) 
+  Calls: printf/157 (178992760 (estimated locally),1.00 per call) 
+capture_process_camera/148 (capture_process_camera) @071e4690
+  Type: function definition analyzed
+  Visibility: externally_visible semantic_interposition public
+  References: input_0/146 (write) 
+  Referring: 
+  Availability: available
+  Function flags: count:14196615 (estimated locally) body
+  Called by: main/150 (354334801 (estimated locally),66.66 per call) 
+  Calls: LED_On/158 (4684883 (estimated locally),0.33 per call) printf/157 (4684883 (estimated locally),0.33 per call) get_camera_stream_statistic/156 (14196616 (estimated locally),1.00 per call) release_camera_stream_buffer/155 (114863531 (estimated locally),8.09 per call) get_camera_stream_buffer/154 (1073741824 (estimated locally),75.63 per call) camera_is_image_rcv/153 (1014686025 (estimated locally),71.47 per call) camera_get_image/152 (14196615 (estimated locally),1.00 per call) camera_start_capture_image/151 (14196615 (estimated locally),1.00 per call) 
+cnn_load_input/147 (cnn_load_input) @071e43f0
+  Type: function definition analyzed
+  Visibility: externally_visible semantic_interposition public
+  previous sharing asm name: 184
+  References: input_0/146 (addr) 
+  Referring: 
+  Availability: available
+  Function flags: count:1193046 (estimated locally) body nonfreeing_fn
+  Called by: 
+  Calls: 
+input_0/146 (input_0) @071db5a0
+  Type: variable definition analyzed
+  Visibility: semantic_interposition prevailing_def_ironly
+  References: 
+  Referring: cnn_load_input/147 (addr) capture_process_camera/148 (write) cnn_load_input/184 (addr) 
+  Availability: available
+  Varpool flags:
+cnn_time/145 (cnn_time) @071db558
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible semantic_interposition public
+  References: 
+  Referring: main/150 (read) 
+  Availability: available
+  Varpool flags:
+ml_softmax/144 (ml_softmax) @071db510
+  Type: variable definition analyzed
+  Visibility: semantic_interposition prevailing_def_ironly
+  References: 
+  Referring: display_result/149 (read) display_result/149 (read) main/150 (addr) 
+  Availability: available
+  Varpool flags:
+ml_data/143 (ml_data) @071db4c8
+  Type: variable definition analyzed
+  Visibility: semantic_interposition prevailing_def_ironly
+  References: 
+  Referring: main/150 (addr) main/150 (addr) 
+  Availability: available
+  Varpool flags: used-by-single-function
+classes/142 (classes) @071db480
+  Type: variable definition analyzed
+  Visibility: externally_visible semantic_interposition public
+  References: 
+  Referring: display_result/149 (read) 
+  Availability: available
+  Varpool flags: initialized
+Trivially needed variables: input_0/146 cnn_time/145 ml_softmax/144 ml_data/143 classes/142
+Removing variables:
+
+Final Symbol table:
+
+softmax_q17p14_q15/183 (softmax_q17p14_q15) @073b7690
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+cnn_stop/182 (cnn_stop) @073b75e8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+cnn_unload/181 (cnn_unload) @073b7540
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+cnn_start/180 (cnn_start) @073b7498
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+LED_Toggle/179 (LED_Toggle) @073b73f0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+MXC_SYS_ClockEnable/178 (MXC_SYS_ClockEnable) @073b7348
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+camera_write_reg/177 (camera_write_reg) @073b72a0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+camera_set_vflip/176 (camera_set_vflip) @073b71f8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+camera_set_hmirror/175 (camera_set_hmirror) @073b7150
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+camera_setup/174 (camera_setup) @073b70a8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+camera_init/173 (camera_init) @073b7000
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+MXC_DMA_AcquireChannel/172 (MXC_DMA_AcquireChannel) @071f3f18
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+MXC_DMA_Init/171 (MXC_DMA_Init) @071f3e70
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+cnn_configure/170 (cnn_configure) @071f3dc8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+cnn_load_bias/169 (cnn_load_bias) @071f3d20
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+cnn_load_weights/168 (cnn_load_weights) @071f3c78
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+cnn_init/167 (cnn_init) @071f3bd0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+cnn_boost_enable/166 (cnn_boost_enable) @071f3b28
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+cnn_enable/165 (cnn_enable) @071f3a80
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+SystemCoreClockUpdate/164 (SystemCoreClockUpdate) @071f39d8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+MXC_SYS_Clock_Select/163 (MXC_SYS_Clock_Select) @071f3930
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+MXC_ICC_Enable/162 (MXC_ICC_Enable) @071f3888
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+puts/161 (__builtin_puts) @071f37e0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+Camera_Power/160 (Camera_Power) @071f3738
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+MXC_Delay/159 (MXC_Delay) @071f3690
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+LED_On/158 (LED_On) @071f35e8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+printf/157 (printf) @071f3540
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+get_camera_stream_statistic/156 (get_camera_stream_statistic) @071f3498
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+release_camera_stream_buffer/155 (release_camera_stream_buffer) @071f33f0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+get_camera_stream_buffer/154 (get_camera_stream_buffer) @071f3348
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+camera_is_image_rcv/153 (camera_is_image_rcv) @071f32a0
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+camera_get_image/152 (camera_get_image) @071f31f8
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+camera_start_capture_image/151 (camera_start_capture_image) @071f3150
+  Type: function
+  Visibility: semantic_interposition external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+main/150 (main) @071f30a8
+  Type: function definition analyzed
+  Visibility: externally_visible semantic_interposition asm_written public section:.text.main (implicit_section)
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:5315554 (estimated locally) only_called_at_startup executed_once
+  Called by: 
+  Calls: 
+display_result/149 (display_result) @071e4a80
+  Type: function definition analyzed
+  Visibility: externally_visible semantic_interposition asm_written public section:.text.display_result (implicit_section)
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:178992760 (estimated locally)
+  Called by: 
+  Calls: 
+capture_process_camera/148 (capture_process_camera) @071e4690
+  Type: function definition analyzed
+  Visibility: externally_visible semantic_interposition asm_written public section:.text.capture_process_camera (implicit_section)
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:14196615 (estimated locally)
+  Called by: 
+  Calls: 
+cnn_load_input/147 (cnn_load_input) @071e43f0
+  Type: function definition analyzed
+  Visibility: externally_visible semantic_interposition asm_written public section:.text.cnn_load_input (implicit_section)
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1193046 (estimated locally) nonfreeing_fn
+  Called by: 
+  Calls: 
+input_0/146 (input_0) @071db5a0
+  Type: variable definition analyzed
+  Visibility: semantic_interposition prevailing_def_ironly asm_written section:.bss.input_0 (implicit_section)
+  Aux: @00000001
+  References: 
+  Referring: 
+  Availability: available
+  Varpool flags:
+cnn_time/145 (cnn_time) @071db558
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible semantic_interposition asm_written public section:.bss.cnn_time (implicit_section)
+  Aux: @071db5a0
+  References: 
+  Referring: 
+  Availability: available
+  Varpool flags:
+ml_softmax/144 (ml_softmax) @071db510
+  Type: variable definition analyzed
+  Visibility: semantic_interposition prevailing_def_ironly asm_written section:.bss.ml_softmax (implicit_section)
+  Aux: @071db558
+  References: 
+  Referring: 
+  Availability: available
+  Varpool flags:
+ml_data/143 (ml_data) @071db4c8
+  Type: variable definition analyzed
+  Visibility: semantic_interposition prevailing_def_ironly asm_written section:.bss.ml_data (implicit_section)
+  Aux: @071db510
+  References: 
+  Referring: 
+  Availability: available
+  Varpool flags: used-by-single-function
+classes/142 (classes) @071db480
+  Type: variable definition analyzed
+  Visibility: externally_visible semantic_interposition asm_written public section:.data.classes (implicit_section)
+  Aux: @071db4c8
+  References: 
+  Referring: 
+  Availability: available
+  Varpool flags: initialized

@@ -1,0 +1,5 @@
+main.c:56:14:utils_get_time_ms	24	static
+main.c:71:6:cnn_load_input	32	static
+main.c:89:6:capture_process_camera	72	static
+main.c:145:6:display_result	4	static
+main.c:169:5:main	64	static

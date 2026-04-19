@@ -1,0 +1,22 @@
+set log_output to "flash.log"
+Info : CMSIS-DAP: SWD supported
+Info : CMSIS-DAP: Atomic commands supported
+Info : CMSIS-DAP: Test domain timer supported
+Info : CMSIS-DAP: FW Version = 2.1.0
+Info : CMSIS-DAP: Serial# = 04231702f091cac200000000000000000000000097969906
+Info : CMSIS-DAP: Interface Initialised (SWD)
+Info : SWCLK/TCK = 1 SWDIO/TMS = 1 TDI = 0 TDO = 0 nTRST = 0 nRESET = 1
+Info : CMSIS-DAP: Interface ready
+Info : clock speed 2000 kHz
+Info : SWD DPIDR 0x2ba01477
+Info : SWD DPIDR 0x2ba01477
+Warn : Connecting DP: stalled AP operation, issuing ABORT
+Error: Failed to read memory and, additionally, failed to find out where
+Error: [max32xxx.cpu] Examination failed
+Warn : target max32xxx.cpu examination failed
+Info : starting gdb server for max32xxx.cpu on pipe
+Info : SWD DPIDR 0x2ba01477
+Info : SWD DPIDR 0x2ba01477
+Warn : Connecting DP: stalled AP operation, issuing ABORT
+Error: Failed to read memory and, additionally, failed to find out where
+Error: Target not examined yet

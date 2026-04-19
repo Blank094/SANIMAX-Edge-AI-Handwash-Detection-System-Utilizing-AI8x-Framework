@@ -1,0 +1,11 @@
+main.c:93:6:button_handler	8	static
+main.c:102:6:setup_button	32	static
+main.c:122:5:compute_mode	40	static
+main.c:139:5:is_class_detected	4	static
+main.c:146:6:reset_led_state	16	static
+main.c:158:6:setup_feedback_leds	8	static
+main.c:166:6:toggle_operation_indicator	8	static
+main.c:179:5:cnn_display_decision	0	static
+main.c:194:6:cnn_load_input	0	static
+main.c:205:6:capture_process_camera	56	static
+main.c:248:5:main	80	static
