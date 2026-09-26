@@ -114,7 +114,7 @@ The system handled clearly distinct activities (holding a cellphone, right-hand-
 
 - Accuracy is sensitive to hand position leaving the fixed camera frame, excessive soap obscuring hand features, and ambient lighting
 - Specificity is weaker for activities that visually resemble trained gestures (faucet operation, single-hand movements) — addressable with expanded, more balanced training data
-- Recommended next steps: power profiling and sleep/wake management, additional feedback modalities (buzzer/display), multi-sensor fusion (IMU/proximity), temporal models (TCN/3D-CNN) for sequential gesture recognition, real-world deployment trials, data logging/IoT integration, and extension to other hygiene behaviors (PPE, mask compliance)
+- Recommended next steps: power profiling, additional feedback modalities (buzzer/display), temporal models (TCN/3D-CNN) for sequential gesture recognition, real-world deployment trials, data logging/IoT integration, and extension to other hygiene behaviors (PPE, mask compliance)
 
 ## Tools & Frameworks
 
