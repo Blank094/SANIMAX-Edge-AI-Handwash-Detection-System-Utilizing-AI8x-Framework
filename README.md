@@ -133,12 +133,6 @@ The system handled clearly distinct activities (holding a cellphone, right-hand-
 | Firmware | Embedded deployment code and LED feedback logic for the MAX78000FTHR (MaximSDK) |
 | Hardware | PCB and 3D enclosure design files |
 
-*(Adjust the table above to match your actual folder names.)*
-
 ## Acknowledgments
 
 Built on Analog Devices' open-source [AI8X toolchain](https://github.com/analogdevicesinc) for the MAX78000/MAX78002 family of AI microcontrollers. Presented in partial fulfillment of the requirements for the degree of Bachelor of Science in Computer Engineering, MSU-Iligan Institute of Technology.
-
-## License
-
-*(Add your license here.)*
