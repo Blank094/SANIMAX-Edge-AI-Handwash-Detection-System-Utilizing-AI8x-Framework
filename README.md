@@ -1,4 +1,4 @@
-# SaniMAX: An Edge AI Handwash Detection System Utilizing the AI8X Framework
+# SaniMAX: An Edge AI Real-time Handwash Detection System Utilizing the AI8X Framework
 
 An Edge AI device that classifies handwashing technique in real time entirely on-device — no cloud, no host PC at inference time — built around Analog Devices' ultra-low-power **MAX78000FTHR** CNN accelerator and the **AI8X** model development framework.
 
